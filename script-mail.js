@@ -11,7 +11,7 @@ let mailUtenteCorretta = false;
 for (let i = 0; i < listaMailInvitati.length; i++) {
     if (mailUtente === listaMailInvitati[i]) {
         mailUtenteCorretta = true;
-        break;
+        break; // è possibile anche nn usare break
     }
 }
 
